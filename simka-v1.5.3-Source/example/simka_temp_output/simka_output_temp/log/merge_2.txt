@@ -1,0 +1,5 @@
+Merging partition 2
+	nohup /builds/workspace/tool-simka-build-macos-10.9.5-gcc-4.2.1-gitlab/gatb-simka/build/bin/simkaMerge  -kmer-size 21 -in ../example/simka_input.txt -out-tmp-simka /builds/workspace/tool-simka-build-macos-10.9.5-gcc-4.2.1-gitlab/gatb-simka/example/simka_temp_output/simka_output_temp/ -partition-id 2 -max-memory 1250 -nb-cores 1 -kmer-shannon-index 0.000000 -verbose 1 >> /builds/workspace/tool-simka-build-macos-10.9.5-gcc-4.2.1-gitlab/gatb-simka/example/simka_temp_output/simka_output_temp//log/merge_2.txt 2>&1
+
+
+

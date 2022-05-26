@@ -1,0 +1,3 @@
+C: C.fasta
+D: D_paired_1.fasta ; D_paired_2.fasta
+E: A.fasta , A.fasta ; B.fasta , B.fasta
