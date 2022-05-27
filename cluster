@@ -1,0 +1,30 @@
+How to start project?
+
+- ssh [username]@login.dei.unipd.it
+- newgrp bcbg
+- cd /nfsd/bcb/bcbg/
+- create directory with "mkdir [nameDirectory]"
+- use the cluster interactive mode
+
+CLuster :
+- specify cpu, ram and time
+- slurm job files
+	- 2.2 of clusterdeiguide
+- start the software with slurm job:
+	- sbatch [options] <job_file>
+- we can do various operations on a running job :
+	- squeue [-l]
+		- list all jobs
+		- with -l, more informations
+	- squeue [-l] -u <user_id>
+		- list jobs of a user
+	- squeue -j JOBID
+		- list a job, his job id
+	- sstat
+		- 
+	- scancel JOBID
+	- scancel -u <user_id>
+- we can do other operations after you finish the job:
+	- sacct -o reqmem,maxrss,averss,elapsed -j <job_id>
+	- seff JOBID
+
